@@ -1,4 +1,5 @@
 name: astrbot_plugin_group_content_moderation
+display_name: AI群聊消息审核
 description: AI审核群聊消息，违规内容撤回
 author: Nahida
 version: 1.0.0
