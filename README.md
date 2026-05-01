@@ -121,7 +121,7 @@ A：本插件设计为 **基于 LLM 的语义级审核**，若需关键词过滤
 
 **作者**：Nahida
 
-**QQ**: https://qm.qq.com/q/9Qin4ETkaY -欢迎扩列，不用觉得尴尬~
+**QQ**：https://qm.qq.com/q/9Qin4ETkaY -欢迎扩列，不用觉得尴尬~
 
 **GitHub**：https://github.com/Nahida364/astrbot_plugin_group_content_moderation
 
