@@ -1,0 +1,37 @@
+{
+  "group_ids": {
+    "description": "要监控的群号列表",
+    "type": "list",
+    "default": [],
+    "hint": "群号列表，如 [123456, 789012]"
+  },
+  "auto_add_groups": {
+    "description": "自动添加拥有管理员权限的群聊",
+    "type": "bool",
+    "default": false,
+    "hint": "插件加载时扫描所有已加入群，将机器人为群主/管理员的群自动加入名单"
+  },
+  "fetch_interval_minutes": {
+    "description": "爬取消息的时间间隔（分钟）",
+    "type": "int",
+    "default": 10
+  },
+  "fetch_count": {
+    "description": "单群每次爬取的消息数量",
+    "type": "int",
+    "default": 50
+  },
+  "moderation_prompt": {
+    "description": "AI 审核的 System Prompt（可留空使用默认）",
+    "type": "text",
+    "default": "",
+    "hint": "用于指示 AI 如何通过工具报告违规消息。示例：你是一个内容审核员，请检查以下群聊消息。若有违规（违法、色情、辱骂），调用 report_violations 工具并传入违规消息的编号列表。若无违规，也调用该工具但传入空列表。"
+  },
+  "chat_provider": {
+    "description": "用于审核的 LLM 提供商",
+    "type": "string",
+    "default": "",
+    "hint": "选择已配置的大语言模型提供商",
+    "_special": "select_provider"
+  }
+}
